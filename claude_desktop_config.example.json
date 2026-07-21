@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "notion": {
+      "command": "dotnet",
+      "args": ["run", "--project", "/CAMINHO/ABSOLUTO/PARA/notion-mcp-server"],
+      "env": {
+        "NOTION_TOKEN": "secret_xxxxxxxxxxxxxxxxxxxxxxxx",
+        "NOTION_VERSION": "2022-06-28"
+      }
+    }
+  }
+}
